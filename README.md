@@ -16,6 +16,7 @@ All contained in a docker container
 - docker-compose build
 - docker-compose run --rm phoenix mix deps.get
 - docker-compose run --rm phoenix mix ecto.create
+- docker-compose run --rm phoenix mix ecto.migrate
 - docker-compose up
 
 # Key files and changes from scratch
